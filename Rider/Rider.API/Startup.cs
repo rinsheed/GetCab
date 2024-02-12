@@ -1,12 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Rider.Application.Contract;
-using Rider.Infrastructure;
 using Rider.Infrastructure.Persistence;
 
 namespace Rider.API;
 
 public class Startup
 {
+    /// <summary>
+    /// Configure services of Rider API
+    /// </summary>
+    /// <param name="services"></param>
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
@@ -24,7 +27,6 @@ public class Startup
         {
             c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Rider API", Version = "v1" });
         });
-
     }
 
 

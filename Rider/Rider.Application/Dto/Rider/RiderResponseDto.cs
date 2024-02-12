@@ -1,5 +1,4 @@
-﻿
-namespace Rider.Application.Dto.Rider;
+﻿namespace Rider.Application.Dto.Rider;
 
 public class RiderResponseDto
 {

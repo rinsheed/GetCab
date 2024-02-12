@@ -2,11 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Rider.Application.Contract;
 using Rider.Application.Dto.Rider;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rider.Application.Application.Rider;
 
