@@ -1,6 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Rider.Application.Application.Rider;
+using Rider.Application.Application.RiderDetail;
 
 namespace Rider.API.Controllers;
 
