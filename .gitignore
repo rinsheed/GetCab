@@ -1,15 +1,18 @@
 .vs/
-Rider/Rider.API/bin/
-Rider/Rider.API/obj/
+Solutions/Rider/Rider.API/bin/
+Solutions/Rider/Rider.API/obj/
 
-Rider/Rider.Application/bin/
-Rider/Rider.Application/obj/
+Solutions/Rider/Rider.Application/bin/
+Solutions/Rider/Rider.Application/obj/
 
-Rider/Rider.Domain/bin/
-Rider/Rider.Domain/obj/
+Solutions/Rider/Rider.Domain/bin/
+Solutions/Rider/Rider.Domain/obj/
 
-Rider/Rider.Infrastructure/bin/
-Rider/Rider.Infrastructure/obj/
+Solutions/Rider/Rider.Infrastructure/bin/
+Solutions/Rider/Rider.Infrastructure/obj/
 
-Rider/Rider.Shared/bin/
-Rider/Rider.Shared/obj/
+Solutions/Rider/Rider.Shared/bin/
+Solutions/Rider/Rider.Shared/obj/
+
+Tests/Rider/bin/
+Tests/Rider/obj/
