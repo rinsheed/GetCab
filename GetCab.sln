@@ -5,15 +5,23 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rider", "Rider", "{1C39EE09-46CF-4B90-98EA-20ADE2EC970C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Application", "Rider\Rider.Application\Rider.Application.csproj", "{86F85DEF-66FE-4626-8863-CCFE7A2A5D72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Application", "Solutions\Rider\Rider.Application\Rider.Application.csproj", "{86F85DEF-66FE-4626-8863-CCFE7A2A5D72}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Domain", "Rider\Rider.Domain\Rider.Domain.csproj", "{0A866ADC-E77D-47A8-8849-A8110B8E83C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Domain", "Solutions\Rider\Rider.Domain\Rider.Domain.csproj", "{0A866ADC-E77D-47A8-8849-A8110B8E83C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Infrastructure", "Rider\Rider.Infrastructure\Rider.Infrastructure.csproj", "{826D13B3-A442-4C47-8833-36B1C76C3D90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Infrastructure", "Solutions\Rider\Rider.Infrastructure\Rider.Infrastructure.csproj", "{826D13B3-A442-4C47-8833-36B1C76C3D90}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Shared", "Rider\Rider.Shared\Rider.Shared.csproj", "{8A52D014-DF09-4166-A737-4BFE9D9F57D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.Shared", "Solutions\Rider\Rider.Shared\Rider.Shared.csproj", "{8A52D014-DF09-4166-A737-4BFE9D9F57D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rider.API", "Rider\Rider.API\Rider.API.csproj", "{89F38938-E731-4E18-B997-0D125D45ACFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rider.API", "Solutions\Rider\Rider.API\Rider.API.csproj", "{89F38938-E731-4E18-B997-0D125D45ACFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{50827DFF-4BA1-461F-A0AB-0ECCC49EE8A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{415AEA90-7CE2-4C67-9A3C-25A4FEDE862C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rider", "Rider", "{B1CD8C3A-94D6-4990-9777-54D06C88358F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rider", "Tests\Rider\Rider.csproj", "{5FEB6FF6-F073-4732-8244-CBEE7DAEF8FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,16 +49,23 @@ Global
 		{89F38938-E731-4E18-B997-0D125D45ACFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89F38938-E731-4E18-B997-0D125D45ACFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89F38938-E731-4E18-B997-0D125D45ACFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEB6FF6-F073-4732-8244-CBEE7DAEF8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEB6FF6-F073-4732-8244-CBEE7DAEF8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEB6FF6-F073-4732-8244-CBEE7DAEF8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEB6FF6-F073-4732-8244-CBEE7DAEF8FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{1C39EE09-46CF-4B90-98EA-20ADE2EC970C} = {50827DFF-4BA1-461F-A0AB-0ECCC49EE8A8}
 		{86F85DEF-66FE-4626-8863-CCFE7A2A5D72} = {1C39EE09-46CF-4B90-98EA-20ADE2EC970C}
 		{0A866ADC-E77D-47A8-8849-A8110B8E83C1} = {1C39EE09-46CF-4B90-98EA-20ADE2EC970C}
 		{826D13B3-A442-4C47-8833-36B1C76C3D90} = {1C39EE09-46CF-4B90-98EA-20ADE2EC970C}
 		{8A52D014-DF09-4166-A737-4BFE9D9F57D7} = {1C39EE09-46CF-4B90-98EA-20ADE2EC970C}
 		{89F38938-E731-4E18-B997-0D125D45ACFB} = {1C39EE09-46CF-4B90-98EA-20ADE2EC970C}
+		{B1CD8C3A-94D6-4990-9777-54D06C88358F} = {415AEA90-7CE2-4C67-9A3C-25A4FEDE862C}
+		{5FEB6FF6-F073-4732-8244-CBEE7DAEF8FD} = {B1CD8C3A-94D6-4990-9777-54D06C88358F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37C21576-0DDA-4CD8-9FB7-8C61A0042873}

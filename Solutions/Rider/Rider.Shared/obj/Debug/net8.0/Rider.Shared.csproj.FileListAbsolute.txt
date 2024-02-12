@@ -1,0 +1,12 @@
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\bin\Debug\net8.0\Rider.Shared.deps.json
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\bin\Debug\net8.0\Rider.Shared.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\bin\Debug\net8.0\Rider.Shared.pdb
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.AssemblyInfoInputs.cache
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.AssemblyInfo.cs
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.csproj.CoreCompileInputs.cache
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.sourcelink.json
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\refint\Rider.Shared.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\Rider.Shared.pdb
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Shared\obj\Debug\net8.0\ref\Rider.Shared.dll

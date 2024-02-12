@@ -1,0 +1,16 @@
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\bin\Debug\net8.0\Rider.Application.deps.json
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\bin\Debug\net8.0\Rider.Application.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\bin\Debug\net8.0\Rider.Application.pdb
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\bin\Debug\net8.0\Rider.Domain.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\bin\Debug\net8.0\Rider.Domain.pdb
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.csproj.AssemblyReference.cache
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.AssemblyInfoInputs.cache
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.AssemblyInfo.cs
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.csproj.CoreCompileInputs.cache
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.sourcelink.json
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.csproj.CopyComplete
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\refint\Rider.Application.dll
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\Rider.Application.pdb
+E:\Rinsheed\.Net\GetCab\Rider\Rider.Application\obj\Debug\net8.0\ref\Rider.Application.dll
