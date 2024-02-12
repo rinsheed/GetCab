@@ -22,20 +22,25 @@ public class GetRiderDetailsByIdQueryHandler : IRequestHandler<GetRiderDetailsBy
 
     public async Task<RiderResponseDto> Handle(GetRiderDetailsByIdQuery request, CancellationToken cancellationToken)
     {
-        var response = new RiderResponseDto();
-
-        var riderDetails = await _dbContext.RiderDetails.FirstOrDefaultAsync(x => x.Id == request.Id);
-
-        if (riderDetails == null)
+        try
         {
-            throw new Exception("Not found");
+            var riderDetails = await _dbContext.RiderDetails.FirstOrDefaultAsync(x => x.Id == request.Id);
+
+            if (riderDetails == null)
+            {
+                throw new Exception("Rider Id not found");
+            }
+
+            return new RiderResponseDto()
+            {
+                Id = riderDetails.Id,
+                Name = riderDetails.Name,
+                Address = riderDetails.Address
+            };
         }
-
-        return new RiderResponseDto()
+        catch (Exception ex)
         {
-            Id = riderDetails.Id,
-            Name = riderDetails.Name,
-            Address = riderDetails.Address
-        };
+            throw new Exception("Unexpected error occured", ex);
+        }
     }
 }
